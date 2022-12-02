@@ -1,0 +1,10 @@
+19:17:20 **** Build of configuration Debug for project Hello_wrold_application_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 58937 D:/Licenta/HelloWorldZynq/hello_world_minized_platform/export/hello_world_minized_platform/hello_world_minized_platform.xpfm standalone_domain D:/Licenta/HelloWorldZynq/Hello_wrold_application_system/Debug/system.bif
+sdcard_gen --xpfm D:/Licenta/HelloWorldZynq/hello_world_minized_platform/export/hello_world_minized_platform/hello_world_minized_platform.xpfm --sys_config hello_world_minized_platform --bif D:/Licenta/HelloWorldZynq/Hello_wrold_application_system/Debug/system.bif --bitstream D:/Licenta/HelloWorldZynq/Hello_wrold_application/_ide/bitstream/design_1_wrapper.bit --elf D:/Licenta/HelloWorldZynq/Hello_wrold_application/Debug/Hello_wrold_application.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/Licenta/HelloWorldZynq/Hello_wrold_application/_ide/bitstream/design_1_wrapper.bit
+Running R:/Xilinx/Vitis/2022.2/bin/bootgen  -image D:/Licenta/HelloWorldZynq/Hello_wrold_application_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+19:17:29 Build Finished (took 8s.153ms)
+

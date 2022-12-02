@@ -1,0 +1,26 @@
+Trimit la Hancu
+{Placuta Zybo
+Mod de confi: Jtag (programare) si pe wall (Alimentare)
+https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2022-1.html
+https://termite.software.informer.com/3.4/
+https://digilent.com/reference/programmable-logic/zybo/reference-manual
+}
+
+Teoretic
+Scriem si citim despre 
+Zynk/Hdmi/Line in/Mic in/HPH OUT
+https://www.icsoso.com.cn/pdf-60/SSM2603CPZ-REEL7.pdf
+Primire (Uart)-procesare(Zynq)-iesire(Audio)
+
+Practic
+Pasi:
+Parsor de comenzi pentru uart (Vitis SDK/C/C++)
+(Scriem 1 da inapoi comanda 1 etc)
+Pornim pe rand vga/audio 
+Corelez audio cu Vga
+Adaugam prelucrare de semnal audio
+
+
+Extra:
+Matlab - Configurare filtru
+

@@ -1,0 +1,90 @@
+19:08:51 DEBUG : Logs will be stored at 'D:/Licenta/HelloWorldZynq/IDE.log'.
+19:08:55 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\Licenta\HelloWorldZynq\temp_xsdb_launch_script.tcl
+19:08:55 INFO  : Registering command handlers for Vitis TCF services
+19:08:57 INFO  : Platform repository initialization has completed.
+19:08:59 INFO  : XSCT server has started successfully.
+19:08:59 INFO  : Successfully done setting XSCT server connection channel  
+19:08:59 INFO  : plnx-install-location is set to ''
+19:09:02 INFO  : Successfully done setting workspace for the tool. 
+19:09:02 INFO  : Successfully done query RDI_DATADIR 
+19:11:12 INFO  : Result from executing command 'getProjects': hello_world_minized_platform
+19:11:12 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+19:12:18 INFO  : No changes in MSS file content so sources will not be generated.
+19:13:35 INFO  : Result from executing command 'getProjects': hello_world_minized_platform
+19:13:35 INFO  : Result from executing command 'getPlatforms': hello_world_minized_platform|D:/Licenta/HelloWorldZynq/hello_world_minized_platform/export/hello_world_minized_platform/hello_world_minized_platform.xpfm;xilinx_vck190_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|R:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+19:17:18 INFO  : Checking for BSP changes to sync application flags for project 'Hello_wrold_application'...
+19:17:43 ERROR : (XRT Server)R:/Xilinx/Vitis/2022.2/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+19:18:43 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+19:18:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:18:47 INFO  : Jtag cable 'Digilent Zybo 210279535867A' is selected.
+19:18:47 INFO  : 'jtag frequency' command is executed.
+19:18:47 INFO  : Context for 'APU' is selected.
+19:18:47 INFO  : System reset is completed.
+19:18:50 INFO  : 'after 3000' command is executed.
+19:18:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279535867A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279535867A-13722093-0"}' command is executed.
+19:18:51 INFO  : Device configured successfully with "D:/Licenta/HelloWorldZynq/Hello_wrold_application/_ide/bitstream/design_1_wrapper.bit"
+19:18:52 INFO  : Context for 'APU' is selected.
+19:18:52 INFO  : Hardware design and registers information is loaded from 'D:/Licenta/HelloWorldZynq/hello_world_minized_platform/export/hello_world_minized_platform/hw/design_1_wrapper.xsa'.
+19:18:52 INFO  : 'configparams force-mem-access 1' command is executed.
+19:18:52 INFO  : Context for 'APU' is selected.
+19:18:52 INFO  : Sourcing of 'D:/Licenta/HelloWorldZynq/Hello_wrold_application/_ide/psinit/ps7_init.tcl' is done.
+19:18:52 INFO  : 'ps7_init' command is executed.
+19:18:52 INFO  : 'ps7_post_config' command is executed.
+19:18:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:18:52 INFO  : The application 'D:/Licenta/HelloWorldZynq/Hello_wrold_application/Debug/Hello_wrold_application.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:18:52 INFO  : 'configparams force-mem-access 0' command is executed.
+19:18:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279535867A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279535867A-13722093-0"}
+fpga -file D:/Licenta/HelloWorldZynq/Hello_wrold_application/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Licenta/HelloWorldZynq/hello_world_minized_platform/export/hello_world_minized_platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Licenta/HelloWorldZynq/Hello_wrold_application/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Licenta/HelloWorldZynq/Hello_wrold_application/Debug/Hello_wrold_application.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:18:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:18:53 INFO  : 'con' command is executed.
+19:18:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:18:53 INFO  : Launch script is exported to file 'D:\Licenta\HelloWorldZynq\Hello_wrold_application_system\_ide\scripts\systemdebugger_hello_wrold_application_system_standalone.tcl'
+20:40:01 INFO  : Disconnected from the channel tcfchan#3.
